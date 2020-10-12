@@ -38,3 +38,10 @@ git push origin 分支名称
 
 删除远程分支
 git push origin :分支名称
+
+add之后撤回操作
+git status 先看一下add 中的文件 
+git reset HEAD 如果后面什么都不跟 就是上一次add 里面的全部撤销了 
+git reset HEAD XXX.py 就是对某个py文件进行撤销了
+
+git reset HEAD file  即使对file文件夹进行撤销
