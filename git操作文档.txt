@@ -1,0 +1,40 @@
+分支处理：
+
+初始化
+git init
+
+关联远程仓库
+git remote add origin http...
+
+拉取分支
+git fetch origin 分支名称
+
+//仅创建分支
+//git branch 分支名称
+
+创建本地分支并且切换*（和远程分支名字一样）
+git checkout -b 分支名称 origin/分支名称
+
+更新分支
+git pull origin 分支名称
+
+查看分支状态
+git status
+
+添加文件
+git add .
+
+提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
+git add -u 
+
+提交所有变化
+git add -A  
+
+提交信息备注
+git commit -m “备注”
+
+推送本地分支至远程
+git push origin 分支名称
+
+删除远程分支
+git push origin :分支名称
